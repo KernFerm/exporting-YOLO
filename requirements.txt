@@ -1,0 +1,4 @@
+# For NVIDIA GPUs with CUDA support (Windows)
+torch==2.4.1+cu118; platform_system == "Windows" and platform_machine == "AMD64"
+torchvision==0.19.1+cu118; platform_system == "Windows" and platform_machine == "AMD64"
+torchaudio==2.4.1+cu118; platform_system == "Windows" and platform_machine == "AMD64"
