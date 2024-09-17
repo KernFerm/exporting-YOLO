@@ -51,3 +51,22 @@ python .\export.py --weights ./<your_model_path>.pt --include onnx --half --imgs
 - If you encounter issues during export, ensure that your `CUDA`, `cuDNN`, and `TensorRT` versions are compatible with the version of `PyTorch` you are using.
 - For `ONNX` export issues, ensure you have the `correct ONNX version` installed.
 
+
+## Project Structure
+```
+.
+├── .github
+│   └── dependabot.yml
+├── models
+├── ultralytics1
+│   └── utils
+├── utils
+├── CODE_OF_CONDUCT.md
+├── LICENSE
+├── README.md
+├── SECURITY.md
+├── commands-to-export.txt
+├── export.py
+├── requirements.txt
+├── update_ultralytics.bat
+```
