@@ -1,4 +1,6 @@
-<img src="https://github.com/KernFerm/exporting-YOLO/blob/main/Logo/yolo.png" alt="yolo png" width="200"/>
+<div align="center">
+    <img src="https://github.com/KernFerm/exporting-YOLO/blob/main/Logo/yolo.png" alt="yolo png" width="400"/>
+</div>
 
 
 
