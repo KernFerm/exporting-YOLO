@@ -63,6 +63,7 @@ python .\export.py --weights ./<your_model_path>.pt --include onnx --half --imgs
 .
 ├── .github
 │   └── dependabot.yml
+├── Logo
 ├── models
 ├── ultralytics1
 │   └── utils
