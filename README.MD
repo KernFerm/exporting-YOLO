@@ -2,6 +2,9 @@
     <img src="https://github.com/KernFerm/exporting-YOLO/blob/main/Logo/yolo.png" alt="yolo png" width="400"/>
 </div>
 
+## Support the Project ⭐
+
+If you find this project useful, please give it a star! Your support is appreciated and helps keep the project growing. 🌟
 
 
 # YOLO Export Script
@@ -12,7 +15,7 @@ This repository contains scripts and commands for exporting YOLO models to diffe
 
 Ensure you have installed the necessary dependencies to run the export script:
 
-- Python 3.11.6 or higher
+- Python 3.11.6 or higher [Python 3.11.6](https://github.com/KernFerm/Py3.11.6installer)
 - PyTorch 2.4.1 or higher
 - TorchVision 0.19.1
 - CUDA 11.8
