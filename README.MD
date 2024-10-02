@@ -20,6 +20,7 @@ Ensure you have installed the necessary dependencies to run the export script:
 - TorchVision 0.19.1
 - CUDA 11.8
 - ONNX
+- AMD GPU
 
 ### For NVIDIA GPUs (CUDA Support)
 
@@ -219,3 +220,33 @@ This should properly set up CUDA 11.8 to be used for your projects via `cmd.exe`
 #### Additional Information
 - Ensure that your GPU drivers are up to date.
 - You can check CUDA compatibility with other software (e.g., PyTorch or TensorFlow) by referring to their documentation for specific versions supported by CUDA 11.8.
+
+
+## 🚀 AMD GPU Setup Instructions (DirectML Support)
+
+While NVIDIA GPUs utilize CUDA for deep learning, AMD GPUs can be leveraged on Windows using DirectML, a GPU-accelerated backend for machine learning.
+
+### 1. Install PyTorch for AMD GPUs (DirectML)
+
+For AMD GPUs on Windows, PyTorch supports DirectML as the backend. You can install PyTorch with DirectML using the following command:
+
+```
+pip install torch==2.4.1+cpu torchvision==0.19.1+cpu torchaudio==2.4.1+cpu --extra-index-url https://download.pytorch.org/whl/cpu
+```
+
+### 2. Install ONNX Runtime with DirectML
+To use ONNX with AMD GPUs, install the `onnxruntime-directml` package:
+
+```
+pip install onnxruntime-directml
+```
+
+### 3. Verify AMD GPU Support
+To ensure that your AMD GPU is properly set up, you can verify DirectML support by running the following script:
+
+```
+import onnxruntime as ort
+print(ort.get_device())
+```
+
+If your setup is correct, this should return `"DML"`, indicating that ONNX Runtime is using DirectML.
