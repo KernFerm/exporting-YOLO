@@ -1,0 +1,6 @@
+# For AMD GPUs with DirectML (Windows)
+torch==2.4.1; platform_system == "Windows" and platform_machine == "AMD64" and extra == "dml"
+torchvision==0.19.1; platform_system == "Windows" and platform_machine == "AMD64" and extra == "dml"
+torchaudio==2.4.1; platform_system == "Windows" and platform_machine == "AMD64" and extra == "dml"
+onnx==1.17.0; platform_system == "Windows" and platform_machine == "AMD64"
+onnxruntime-directml==1.19.2; platform_system == "Windows" and platform_machine == "AMD64"
