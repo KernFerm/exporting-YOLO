@@ -22,6 +22,32 @@ Ensure you have installed the necessary dependencies to run the export script:
 - ONNX
 - AMD GPU
 
+## Project Structure
+
+```
+.
+├── .github                           # GitHub configuration files
+│   └── dependabot.yml                # Configuration for Dependabot
+├── Logo                              # Directory for project logo or images
+│   └── yolo.png                      # YOLO logo image
+├── models                            # Directory for model-related files
+│   └── ...                           # (Files related to YOLO models)
+├── ultralytics1                      # YOLO-related utilities and scripts
+│   └── utils                         # Directory for additional utility scripts
+│       └── additional_requirements.txt  # Additional requirement files (YOLO-specific)
+├── utils                             # General utilities and scripts
+│   └── additional_requirements.txt   # Utility and helper functions or scripts
+├── CODE_OF_CONDUCT.md                # Code of conduct for contributors
+├── LICENSE                           # Project license file
+├── README.md                         # Main project README with documentation
+├── SECURITY.md                       # Security policies and guidelines
+├── amd_requirements.txt              # Requirements for AMD GPUs with DirectML
+├── commands-to-export.txt            # Useful commands for exporting YOLO models
+├── export.py                         # Main script to handle YOLO model export
+├── nvidia_requirements.txt           # Requirements for NVIDIA GPUs with CUDA support
+├── update_ultralytics.bat            # Batch script to update Ultralytics' YOLO version or utilities
+```
+
 ### For NVIDIA GPUs (CUDA Support)
 
 You can install the necessary Python packages for NVIDIA GPUs with the following command:
@@ -75,32 +101,6 @@ python .\export.py --weights .\your_model_path.pt --include onnx --imgsz 320 320
 
 - If you encounter issues during export, ensure that your `CUDA`, `cuDNN`, and `TensorRT` versions are compatible with the version of `PyTorch` you are using.
 - For `ONNX` export issues, ensure you have the `correct ONNX version` installed.
-
-
-## Project Structure
-```
-.
-├── .github                           # GitHub configuration files
-│   └── dependabot.yml                # Configuration for Dependabot
-├── Logo                              # Directory for project logo or images
-│   └── yolo.png                      # YOLO logo image
-├── models                            # Directory for model-related files
-│   └── ...                           # (Files related to YOLO models)
-├── ultralytics1                      # YOLO-related utilities and scripts
-│   └── utils                         # Directory for additional utility scripts
-│       └── additional_requirements.txt  # Additional requirement files (YOLO-specific)
-├── utils                             # General utilities and scripts
-│   └── additional_requirements.txt   # Utility and helper functions or scripts
-├── CODE_OF_CONDUCT.md                # Code of conduct for contributors
-├── LICENSE                           # Project license file
-├── README.md                         # Main project README with documentation
-├── SECURITY.md                       # Security policies and guidelines
-├── amd_requirements.txt              # Requirements for AMD GPUs with DirectML
-├── commands-to-export.txt            # Useful commands for exporting YOLO models
-├── export.py                         # Main script to handle YOLO model export
-├── nvidia_requirements.txt           # Requirements for NVIDIA GPUs with CUDA support
-├── update_ultralytics.bat            # Batch script to update Ultralytics' YOLO version or utilities
-```
 
 
 # 🚀 NVIDIA CUDA Installation Guide
