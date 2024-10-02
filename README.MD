@@ -21,6 +21,8 @@ Ensure you have installed the necessary dependencies to run the export script:
 - CUDA 11.8
 - ONNX
 - AMD GPU
+- `YOLOv5` & `YOLOv8` exporting
+
 
 ## Project Structure
 
