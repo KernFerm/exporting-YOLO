@@ -170,6 +170,10 @@ pip install "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\python\ten
 
 ## 10. Set Your Environment Variables 🌎
 Add the following paths to your environment variables:
+- system varaibles 
+- edit `PATH`
+- add `NEW`
+- click okay 
 
 ```
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib
