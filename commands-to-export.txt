@@ -1,4 +1,4 @@
-# engine
+# engine - 20 min export
 
 python .\export.py --weights ./"your_model_path.pt" --include engine --half --imgsz 320 320 --device 0
 
