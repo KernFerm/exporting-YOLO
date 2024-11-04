@@ -3,6 +3,6 @@ torch==2.5.1+cu118
 torchvision==0.20.1+cu118
 torchaudio==2.5.1+cu118
 onnx==1.17.0
-onnxruntime-gpu==1.19.2
+onnxruntime-gpu==1.20.0
 numpy  # Required for PyTorch and ONNX operations
 scipy  # Optional, useful for scientific computing if needed
