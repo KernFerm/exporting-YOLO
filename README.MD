@@ -231,8 +231,8 @@ This should properly set up CUDA 11.8 to be used for your projects via `cmd.exe`
 #### Additional Information
 - Ensure that your GPU drivers are up to date.
 - You can check CUDA compatibility with other software (e.g., PyTorch or TensorFlow) by referring to their documentation for specific versions supported by CUDA 11.8.
-
-
+---
+---
 ## 🚀 AMD GPU Setup Instructions (DirectML Support)
 
 While NVIDIA GPUs utilize CUDA for deep learning, AMD GPUs can be leveraged on Windows using DirectML, a GPU-accelerated backend for machine learning.
