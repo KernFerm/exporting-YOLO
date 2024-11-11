@@ -242,7 +242,7 @@ While NVIDIA GPUs utilize CUDA for deep learning, AMD GPUs can be leveraged on W
 For AMD GPUs on Windows, PyTorch supports DirectML as the backend. You can install PyTorch with DirectML using the following command:
 
 ```
-pip install torch==2.4.1+cpu torchvision==0.19.1+cpu torchaudio==2.4.1+cpu --extra-index-url https://download.pytorch.org/whl/cpu
+pip install torch==2.5.1+cpu torchvision==0.20.1+cpu torchaudio==2.5.1+cpu --extra-index-url https://download.pytorch.org/whl/cpu
 ```
 
 ### 2. Install ONNX Runtime with DirectML
