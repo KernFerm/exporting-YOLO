@@ -16,8 +16,8 @@ This repository contains scripts and commands for exporting YOLO models to diffe
 Ensure you have installed the necessary dependencies to run the export script:
 
 - Python 3.11.6 or higher [Python 3.11.6](https://github.com/KernFerm/Py3.11.6installer)
-- PyTorch 2.4.1 or higher
-- TorchVision 0.19.1
+- PyTorch 2.5.1 or higher
+- TorchVision 0.20.1
 - CUDA 11.8
 - ONNX
 - AMD GPU
