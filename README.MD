@@ -20,6 +20,7 @@ Ensure you have installed the necessary dependencies to run the export script:
 - TorchVision 0.20.1
 - CUDA 11.8
 - ONNX
+- Engine
 - AMD GPU
 - Nvidia GPU
 - `YOLOv5` & `YOLOv8` exporting
