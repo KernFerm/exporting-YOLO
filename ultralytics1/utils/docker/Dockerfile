@@ -13,9 +13,9 @@ RUN apt-get update && apt-get install -y \
 # Set Python 3 as default
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 1
 
-# Upgrade pip and install PyTorch 2.5.1 with CUDA 11.8
+# Upgrade pip and install PyTorch 2.6.0 with CUDA 11.8
 RUN pip install --upgrade pip
-RUN pip install torch==2.5.1+cu118 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+RUN pip install torch==2.6.0+cu118 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
 # Create working directory
 RUN mkdir -p /usr/src/app
