@@ -27,7 +27,7 @@ Ensure you have installed the necessary dependencies to run the export script:
 - `YOLOv8`
 - `YOLOv9`
 - `YOLOv10`
-- `YOLOv11
+- `YOLOv11`
 
 
 ## Project Structure
