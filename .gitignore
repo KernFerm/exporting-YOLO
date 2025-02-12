@@ -1,0 +1,44 @@
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.venv/
+env/
+venv/
+.idea/
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore compiled files
+*.exe
+*.out
+*.o
+
+# Ignore dependency-related files
+node_modules/
+*.egg-info/
+dist/
+build/
+
+# Ignore specific files/folders in the repository
+Logo/
+models/
+ultralytics1/utils/additional_requirements.txt
+utils/additional_requirements.txt
+amd-requirements.bat
+amd_requirements.txt
+commands-to-export.txt
+export.py
+nvidia-requirements.bat
+nvidia_requirements.txt
+python3116.bat
+python3119.bat
+update_ultralytics.bat
