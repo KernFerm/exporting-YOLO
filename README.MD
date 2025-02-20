@@ -164,16 +164,6 @@ Open the `.zip` TensorRT file and move all the folders/files to the CUDA Toolkit
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8
 ```
 
-
-## 9. Python TensorRT Installation 🎡
-Once all the files are copied, run the following command to install TensorRT for Python:
-
-```
-pip install "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\python\tensorrt-8.6.1-cp311-none-win_amd64.whl"
-```
-
-🚨 **Note:** If this step doesn’t work, double-check that the `.whl` file matches your Python version (e.g., `cp311` is for Python 3.11). Just locate the correct `.whl` file in the `python` folder and replace the path accordingly.
-
 ## 10. Set Your Environment Variables 🌎
 Add the following paths to your environment variables:
 - system varaibles 
