@@ -23,11 +23,7 @@ Ensure you have installed the necessary dependencies to run the export script:
 - Engine
 - AMD GPU
 - Nvidia GPU
-- `YOLOv5` 
-- `YOLOv8`
-- `YOLOv9`
-- `YOLOv10`
-- `YOLOv11`
+- `Any **YOLO** Version`
 
 
 ## Project Structure
