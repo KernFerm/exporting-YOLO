@@ -1,5 +1,5 @@
 # For NVIDIA GPUs with CUDA support (Windows)
-torch==2.6.0+cu118
+torch==2.7.0
 torchvision==0.21.0+cu118
 torchaudio==2.6.0+cu118
 onnx==1.17.0
