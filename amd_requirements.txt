@@ -2,7 +2,7 @@
 torch==2.7.0
 torchvision==0.22.0
 torchaudio==2.7.0
-onnx==1.17.0
+onnx==1.18.0
 onnxruntime-directml==1.21.0
 numpy
 onnx-simplifier
