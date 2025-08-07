@@ -145,9 +145,9 @@ Download cuDNN (CUDA Deep Neural Network library) from the NVIDIA website:
 
 ## 6. Unzip and Relocate 📁➡️
 Open the `.zip` cuDNN file and move all the folders/files to the location where the CUDA Toolkit is installed on your machine, typically:
-
+- RUN THE EXE
 ```
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6
 ```
 
 
@@ -158,7 +158,7 @@ Download [TensorRT 10.4](https://github.com/NVIDIA/TensorRT/archive/refs/tags/v1
 Open the `.zip` TensorRT file and move all the folders/files to the CUDA Toolkit folder, typically located at:
 
 ```
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6
 ```
 
 ## 10. Set Your Environment Variables 🌎
