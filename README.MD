@@ -114,7 +114,7 @@ python .\export.py --weights .\your_model_path.pt --include onnx --imgsz 320 320
 
 First, download the CUDA Toolkit 12.6 from the official NVIDIA website:
 
-👉 [Nvidia CUDA Toolkit 12.6 - DOWNLOAD HERE](https://developer.nvidia.com/cuda-11-8-0-download-archive)
+👉 [Nvidia CUDA Toolkit 12.6 - DOWNLOAD HERE](https://developer.download.nvidia.com/compute/cuda/12.6.0/local_installers/cuda_12.6.0_560.76_windows.exe)
 
 ### 2. **Install the CUDA Toolkit**
 
@@ -151,7 +151,7 @@ C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8
 ```
 
 
-## 7. Get TensorRT 8.6 GA 🔽
+## 7. Get TensorRT 10.4 🔽
 Download [TensorRT 10.4](https://github.com/NVIDIA/TensorRT/archive/refs/tags/v10.4.0.zip).
 
 ## 8. Unzip and Relocate 📁➡️
@@ -169,9 +169,9 @@ Add the following paths to your environment variables:
 - click okay 
 
 ```
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\lib
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\libnvvp
-C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\bin
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\lib
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\libnvvp
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.6\bin
 ```
 
 # Setting Up CUDA 12.6 with cuDNN on Windows
