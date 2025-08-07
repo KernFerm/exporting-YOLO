@@ -58,7 +58,7 @@ Ensure you have installed the necessary dependencies to run the export script:
 You can install the necessary Python packages for NVIDIA GPUs with the following command:
 
 ```
-pip3 install torch==2.8.0+cu118 torchvision==0.23.0+cu126 torchaudio==2.8.0+cu126 --index-url https://download.pytorch.org/whl/cu126
+pip3 install torch==2.8.0+cu126 torchvision==0.23.0+cu126 torchaudio==2.8.0+cu126 --index-url https://download.pytorch.org/whl/cu126
 ```
 
 ### Files in the Repository
