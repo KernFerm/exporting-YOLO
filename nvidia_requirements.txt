@@ -1,7 +1,7 @@
 # For NVIDIA GPUs with CUDA support (Windows)
 torch==2.10.0
-torchvision==0.24.1
 torchaudio==2.10.0
+torchvision==0.25.0
 onnx==1.20.1
 onnxruntime-gpu==1.23.2
 numpy  # Required for PyTorch and ONNX operations
