@@ -1,5 +1,5 @@
 # For AMD GPUs with DirectML (Windows)
-torch==2.12.0
+torch==2.12.1
 torchaudio==2.10.0
 torchvision==0.27.0
 onnx
