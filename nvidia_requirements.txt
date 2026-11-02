@@ -1,6 +1,6 @@
 # For NVIDIA GPUs with CUDA support (Windows)
 torch==2.13.0
-torchaudio==2.10.0
+torchaudio==2.11.1
 torchvision==0.29.1
 onnx
 onnxruntime-gpu==1.30.0
